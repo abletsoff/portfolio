@@ -1,0 +1,69 @@
+body {
+	background-color: #212121; 
+	color: #E0E0E0;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rounded-image {
+  border-radius: 50%;
+  max-width: 220px;
+  max-height: 2200px;
+}
+
+.container_parent {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+
+.container_left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container_links {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  font-size: 150%
+}
+
+.shell_prompt_green {
+  font-weight: 800;
+  color: #95f542;
+  font-family: Monaco, monospace;
+}
+
+.shell_prompt_white {
+  font-weight: 800;
+	color: #E0E0E0;
+  font-family: Monaco, monospace;
+}
+
+.shell_text {
+  font-weight: 400;
+	color: #E0E0E0;
+  font-family: Monaco, monospace;
+}
+
+.fa-linkedin {
+  background: #212121;
+	color: #E0E0E0;
+}
+
+.fa-github {
+  background: #212121;
+	color: #E0E0E0;
+}
+
+.fa-google {
+  background: #212121;
+	color: #E0E0E0;
+}
